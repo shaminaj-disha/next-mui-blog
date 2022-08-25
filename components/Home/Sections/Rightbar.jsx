@@ -12,7 +12,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 
 const Rightbar = () => {
   return (
@@ -24,8 +24,58 @@ const Rightbar = () => {
         <AvatarGroup max={7}>
           {/* <Avatar>
             <Image
-              src="https://material-ui.com/static/images/avatar/1.jpg"
               alt="Remy Sharp"
+              src="https://material-ui.com/static/images/avatar/1.jpg"
+              layout="fill"
+            />
+          </Avatar>
+          <Avatar>
+            <Image
+              alt="Travis Howard"
+              src="https://material-ui.com/static/images/avatar/2.jpg"
+              layout="fill"
+            />
+          </Avatar>
+          <Avatar>
+            <Image
+              alt="Cindy Baker"
+              src="https://material-ui.com/static/images/avatar/3.jpg"
+              layout="fill"
+            />
+          </Avatar>
+          <Avatar alt="Agnes Walker" src="" />
+          <Avatar>
+            <Image
+              alt="Trevor Henderson"
+              src="https://material-ui.com/static/images/avatar/5.jpg"
+              layout="fill"
+            />
+          </Avatar>
+          <Avatar>
+            <Image
+              alt="Trevor Henderson"
+              src="https://material-ui.com/static/images/avatar/6.jpg"
+              layout="fill"
+            />
+          </Avatar>
+          <Avatar>
+            <Image
+              alt="Trevor Henderson"
+              src="https://material-ui.com/static/images/avatar/7.jpg"
+              layout="fill"
+            />
+          </Avatar>
+          <Avatar>
+            <Image
+              alt="Trevor Henderson"
+              src="https://material-ui.com/static/images/avatar/8.jpg"
+              layout="fill"
+            />
+          </Avatar>
+          <Avatar>
+            <Image
+              alt="Trevor Henderson"
+              src="https://material-ui.com/static/images/avatar/6.jpg"
               layout="fill"
             />
           </Avatar> */}
@@ -67,7 +117,7 @@ const Rightbar = () => {
           Latest Photos
         </Typography>
         <ImageList cols={3} rowHeight={100} gap={5}>
-          <ImageListItem>
+          {/* <ImageListItem>
             <img
               src="https://material-ui.com/static/images/image-list/breakfast.jpg"
               alt=""
@@ -83,6 +133,27 @@ const Rightbar = () => {
             <img
               src="https://material-ui.com/static/images/image-list/camera.jpg"
               alt=""
+            />
+          </ImageListItem> */}
+          <ImageListItem>
+            <Image
+              src="https://material-ui.com/static/images/image-list/breakfast.jpg"
+              alt=""
+              layout="fill"
+            />
+          </ImageListItem>
+          <ImageListItem>
+            <Image
+              src="https://material-ui.com/static/images/image-list/burgers.jpg"
+              alt=""
+              layout="fill"
+            />
+          </ImageListItem>
+          <ImageListItem>
+            <Image
+              src="https://material-ui.com/static/images/image-list/camera.jpg"
+              alt=""
+              layout="fill"
             />
           </ImageListItem>
         </ImageList>
