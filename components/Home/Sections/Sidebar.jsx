@@ -17,11 +17,15 @@ import {
   ListItemText,
   Switch,
 } from "@mui/material";
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../../pages/_app";
 
-const Sidebar = ({ mode, setMode }) => {
+// const Sidebar = ({ mode, setMode }) => {
+const Sidebar = () => {
+  // using Context API
+  const [mode, setMode] = useContext(ThemeContext);
   return (
-    <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+    <Box flex={1} p={2} sx={{ display: { xs: "none", md: "block" } }}>
       <Box position="fixed">
         <List>
           <ListItem disablePadding>

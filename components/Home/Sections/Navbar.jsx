@@ -48,10 +48,10 @@ const Navbar = () => {
   return (
     <AppBar position="sticky">
       <StyledToolbar>
-        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
+        <Typography variant="h6" sx={{ display: { xs: "none", md: "block" } }}>
           Next MUI
         </Typography>
-        <Pets sx={{ display: { xs: "block", sm: "none" } }} />
+        <Pets sx={{ display: { xs: "block", md: "none" } }} />
         <Search>
           <InputBase placeholder="search..." />
         </Search>

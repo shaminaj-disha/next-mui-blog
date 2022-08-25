@@ -12,15 +12,23 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+// import Image from "next/image";
 
 const Rightbar = () => {
   return (
-    <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+    <Box flex={2} p={2} sx={{ display: { xs: "none", md: "block" } }}>
       <Box position="fixed" width={300}>
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>
         <AvatarGroup max={7}>
+          {/* <Avatar>
+            <Image
+              src="https://material-ui.com/static/images/avatar/1.jpg"
+              alt="Remy Sharp"
+              layout="fill"
+            />
+          </Avatar> */}
           <Avatar
             alt="Remy Sharp"
             src="https://material-ui.com/static/images/avatar/1.jpg"
