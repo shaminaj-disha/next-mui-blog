@@ -15,7 +15,7 @@ import {
   Add as AddIcon,
   DateRange,
   EmojiEmotions,
-  Image,
+  Image as ImageIcon,
   PersonAdd,
   VideoCameraBack,
 } from "@mui/icons-material";
@@ -87,7 +87,7 @@ const Add = () => {
           />
           <Stack direction="row" gap={1} mt={2} mb={3}>
             <EmojiEmotions color="primary" />
-            <Image color="secondary" />
+            <ImageIcon color="secondary" />
             <VideoCameraBack color="success" />
             <PersonAdd color="error" />
           </Stack>
